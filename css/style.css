@@ -46,17 +46,26 @@ h1 {
     float: left;
     width: calc(100% / 3);
     padding: 0 20px;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
+    
 }
 .collector img {
     height: 100px;
 }
 h3 , p, em {
     color: white;
+    padding-top: 10px ;
+    padding-left: 10px;
+    
+}
+.card-container p:nth-child(3) {
+    color:rgb(121, 171, 213);
 }
 
 .card-container {
     background-color: rgb(12, 12, 72);
+    height: 100px;
     
 }
 .clearfix::after {
