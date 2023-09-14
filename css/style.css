@@ -6,6 +6,7 @@
 img{
     max-width: 100%;
     float: left;
+    padding-right: 10px;
 }
 body {
     font-family: 'Roboto Serif', serif;
@@ -47,7 +48,7 @@ h1 {
     width: calc(100% / 3);
     padding: 0 20px;
     text-align: left;
-    padding-left: 10px;
+    padding-bottom: 3rem;
     
 }
 .collector img {
@@ -56,7 +57,6 @@ h1 {
 h3 , p, em {
     color: white;
     padding-top: 10px ;
-    padding-left: 10px;
     
 }
 .card-container p:nth-child(3) {
@@ -66,8 +66,8 @@ h3 , p, em {
 .card-container {
     background-color: rgb(12, 12, 72);
     height: 100px;
-    
 }
+
 .clearfix::after {
     content: "";
     clear: both;
