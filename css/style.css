@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+img{
+    max-width: 100%;
+    float: left;
+}
 body {
     font-family: 'Roboto Serif', serif;
     font-family: 'Urbanist', sans-serif;
@@ -27,9 +30,49 @@ h1 {
     font-weight: bold;
 }
 .sub-header {
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 2rem;
     padding-bottom: 1rem;
     font-size: 0.8rem;
     text-align: center;
     font-weight: lighter;
 }
+.row {
+    background-color: white;
+}
+
+.collector {
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 20px;
+    text-align: center;
+}
+.collector img {
+    height: 100px;
+}
+h3 , p, em {
+    color: white;
+}
+
+.card-container {
+    background-color: rgb(12, 12, 72);
+    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* .page {display: block;  width: 96%;}
+.page .left-content {display: inline-block; float:left; width: 15%;}
+.page .right-content {display: inline-block; float:left; width: 75%;} */
+
+/* .right-content {
+    background-color: rgb(12, 12, 72);
+    color: white;
+    height: 110px;
+    width: fit-content;
+    float:right;
+
+} */
